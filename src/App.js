@@ -4,6 +4,7 @@ import Logo from './components/Logo/Logo';
 import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import FirstScreen from './components/FirstScreen/FirstScreen';
+import SectionDescription from './components/SectionDescription/SectionDescription';
 
 function App() {
   return (
@@ -11,25 +12,9 @@ function App() {
            <Header/>
             <main>
               <FirstScreen/>
+              <SectionDescription/>
             </main>
-                //- start first__screen
-                section.first__screen.screen__boxShadow
-                    .first__screen__text
-                        p All collections
-                        h2 Elevate Your Everyday
-                        a(href="#").first__screen__text-link shop now
-                //- end first__screen
-                //- start description
-                section.description
-                    p 
-                        |   If your happy place is at the dinner table, we totally get that.
-                        |  That’s why we created products to help you find slow moments in a fast world.
-                    //- start description-links
-                    .description-links
-                        a(href="#") Shop All
-                        a(href="#") Read Stories
-                    //- end description-links
-                //- end description
+                
                 //- start products
                 section.products.section-backgroundYellow 
                     h3 Maple Board Collection
