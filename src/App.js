@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import FirstScreen from './components/FirstScreen/FirstScreen';
 import SectionDescription from './components/SectionDescription/SectionDescription';
+import SectionProducts from './components/SectionProducts/SectionProducts';
 
 function App() {
   return (
@@ -13,31 +14,8 @@ function App() {
             <main>
               <FirstScreen/>
               <SectionDescription/>
+              <SectionProducts/>
             </main>
-                
-                //- start products
-                section.products.section-backgroundYellow 
-                    h3 Maple Board Collection
-                    ul.products__list
-                        li.products__list-item
-                            figure
-                                img(src="./img/first-product.webp", alt="")
-                                figcaption 
-                                    h4 Maple Board - Short
-                                    p $98.00
-                        li.products__list-item
-                            figure
-                                img(src="./img/second-product.webp", alt="")
-                                figcaption 
-                                    h4 Maple Board - Long
-                                    p $125.00
-                        li.products__list-item
-                            figure
-                                img(src="./img/third-product.webp", alt="")
-                                figcaption 
-                                    h4 Maple Board - Wide
-                                    p $158.00
-                //- end products
 
                 //- start essentials
                 section.essentials
