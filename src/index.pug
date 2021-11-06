@@ -1,17 +1,38 @@
-
-import './style.css';
-import Logo from './components/Logo/Logo';
-import Nav from './components/Nav/Nav';
-import Header from './components/Header/Header';
-import FirstScreen from './components/FirstScreen/FirstScreen';
-
-function App() {
-  return (
-    <div className="App wrapper">
-           <Header/>
-            <main>
-              <FirstScreen/>
-            </main>
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
+        link(rel="shortcut icon", href="./img/favicon.png", type="image/x-icon")
+        title Kinn Home
+    body
+        .wrapper
+            //- start header
+            header.main-header.flex
+                .wrapper.flex.justify-content-spaceBtw
+                    //- start nav
+                    nav.header-nav
+                        a(href="#") shop
+                        a(href="#") style quiz
+                        a(href="#") about us
+                        a(href="#") stories
+                    //- end nav
+                    //- start logo
+                    .logo
+                        a(href="#" class="logo__link") kinn
+                    //- end logo
+                //- start user
+                .user
+                    ul.user__list.flex.justify-content-spaceBtw
+                        li.user__list-user.user__list-item 
+                        li.user__list-search.user__list-item  
+                        li.user__list-purchases.user__list-item 
+                            span.purchases-count 0
+                //- end user
+            //- end header
+            main
                 //- start first__screen
                 section.first__screen.screen__boxShadow
                     .first__screen__text
@@ -153,8 +174,3 @@ function App() {
                 //- end footer-sochial
             //- end footer
     //- endwrapper 
-    </div>
-  );
-}
-
-export default App;

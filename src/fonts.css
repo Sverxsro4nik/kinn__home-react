@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./font/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./font/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("./font/Jost-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("./font/Jost-Regular.ttf");
+  font-weight: 400;
+}/*# sourceMappingURL=fonts.css.map */
