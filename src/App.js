@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import FirstScreen from './components/FirstScreen/FirstScreen';
 import SectionDescription from './components/SectionDescription/SectionDescription';
 import SectionProducts from './components/SectionProducts/SectionProducts';
+import SectionEssentials from './components/SectionEssentials/SectionEssentials';
 
 function App() {
   return (
@@ -13,16 +14,8 @@ function App() {
               <FirstScreen/>
               <SectionDescription/>
               <SectionProducts/>
+              <SectionEssentials/>
             </main>
-
-                //- start essentials
-                section.essentials
-                    //- start essentials__text
-                    .essentials__text.screen__boxShadow
-                        p The essentials
-                        h3 We belive minimalism means more. More space, more time, more meaningful moments 
-                    //- end essentials__text
-                //- end essentials
                 //- start about-work
                 section.about-work
                     //- start essentials__element
