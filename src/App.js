@@ -6,6 +6,7 @@ import SectionDescription from './components/SectionDescription/SectionDescripti
 import SectionProducts from './components/SectionProducts/SectionProducts';
 import SectionEssentials from './components/SectionEssentials/SectionEssentials';
 import SectionAboutWork from './components/SectionAboutWork/SectionAboutWork';
+import SectionNewsLetter from './components/SectionNewsLetter/SectionNewsLetter';
 
 function App() {
   return (
@@ -17,19 +18,8 @@ function App() {
               <SectionProducts/>
               <SectionEssentials/>
               <SectionAboutWork/>
+              <SectionNewsLetter/>
             </main>
-                
-
-                //- start newsletter
-                section.newsletter.section-backgroundYellow
-                    h3 Sign up to our newsletter
-                    p Receive special offers and first look at new products 
-
-                    form(action="" class="newsletter__form")
-                        input(type="text"  class="newsletter__form-input")
-                        button(type="submit" class="newsletter__form-button") subscribe 
-
-                //- end newsletter
 
                 //- start moments
                 section.moments.section-backgroundYellow
