@@ -5,6 +5,7 @@ import FirstScreen from './components/FirstScreen/FirstScreen';
 import SectionDescription from './components/SectionDescription/SectionDescription';
 import SectionProducts from './components/SectionProducts/SectionProducts';
 import SectionEssentials from './components/SectionEssentials/SectionEssentials';
+import SectionAboutWork from './components/SectionAboutWork/SectionAboutWork';
 
 function App() {
   return (
@@ -15,35 +16,9 @@ function App() {
               <SectionDescription/>
               <SectionProducts/>
               <SectionEssentials/>
+              <SectionAboutWork/>
             </main>
-                //- start about-work
-                section.about-work
-                    //- start essentials__element
-                    .about-work__element.section-backgroundYellow
-                        img(src="./img/design.webp", alt="")
-                        .about-work__element__text
-                            h4 Our Design Story
-                            .line
-                            p
-                                |  We believe in thoughtful, intentional living. So we promise not to clutter your cabinets
-                                |  with one-off pieces you’ll rarely use.
-                                |  Our collection only includes items you’ll reach for every day.
-                                |  Because mindful living should be simple, not stressful.
-                    //- end essentials__element
-
-                    //- start essentials__element
-                    .about-work__element.section-backgroundYellow
-                        img(src="./img/table.webp", alt="")
-                        .about-work__element__text
-                            h4 Your Table Your Time
-                            .line
-                            p
-                                | Our modern lives keep us in constant motion.
-                                | But what keeps us moving isn’t always what moves us.
-                                | Our time at the table is our pause button. Meals can become moments and moments can become memories.
-                                | So grab a plate, pull up a seat, and stay a while
-                    //- end essentials__element
-                //- end about-work
+                
 
                 //- start newsletter
                 section.newsletter.section-backgroundYellow
