@@ -1,4 +1,7 @@
 import React from "react";
+import firstProduct from '../../img/first-product.webp';
+import secondProduct from '../../img/second-product.webp';
+import thirdProduct from '../../img/third-product.webp';
 
 
 function SectionProducts(){
@@ -8,7 +11,7 @@ function SectionProducts(){
             <ul className="products__list">
                 <li className="products__list-item">
                     <figure>
-                        <img src="./img/first-product.webp" alt=""/>
+                        <img src={firstProduct} alt="Maple Board - Short"/>
                         <figcaption>
                             <h4>Maple Board - Short</h4>
                             <p>$98.00</p>
@@ -17,7 +20,7 @@ function SectionProducts(){
                 </li>
                 <li className="products__list-item">
                     <figure>
-                        <img src="./img/second-product.webp" alt=""/>
+                        <img src={secondProduct} alt="Maple Board - Long"/>
                         <figcaption>
                             <h4>Maple Board - Long</h4>
                             <p>$125.00</p>
@@ -26,7 +29,7 @@ function SectionProducts(){
                 </li>
                 <li className="products__list-item">
                     <figure>
-                        <img src="./img/third-product.webp" alt=""/>
+                        <img src={thirdProduct} alt="Maple Board - Wide"/>
                         <figcaption>
                             <h4>Maple Board - Wide</h4>
                             <p>$158.00</p>

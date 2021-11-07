@@ -1,7 +1,5 @@
 
 import './style.css';
-import Logo from './components/Logo/Logo';
-import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import FirstScreen from './components/FirstScreen/FirstScreen';
 import SectionDescription from './components/SectionDescription/SectionDescription';
@@ -121,3 +119,6 @@ function App() {
 }
 
 export default App;
+
+
+// export NODE_OPTIONS=--openssl-legacy-provider
