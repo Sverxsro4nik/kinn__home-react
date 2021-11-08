@@ -7,6 +7,7 @@ import SectionProducts from './components/SectionProducts/SectionProducts';
 import SectionEssentials from './components/SectionEssentials/SectionEssentials';
 import SectionAboutWork from './components/SectionAboutWork/SectionAboutWork';
 import SectionNewsLetter from './components/SectionNewsLetter/SectionNewsLetter';
+import SectionMoments from './components/SectionMoments/SectionMoments';
 
 function App() {
   return (
@@ -19,19 +20,8 @@ function App() {
               <SectionEssentials/>
               <SectionAboutWork/>
               <SectionNewsLetter/>
+              <SectionMoments/>
             </main>
-
-                //- start moments
-                section.moments.section-backgroundYellow
-                    h3 #KinnMoments
-                    //- start gallery
-                    .moments__gallery
-                        img(src="img/second-slide.webp", alt="")
-                        img(src="img/first-slide.webp", alt="")
-                        img(src="img/third-slide.webp", alt="")
-                        img(src="img/four-slide.webp", alt="")
-                    //- end gallery
-                //- end moments
 
             //- start footer
             footer.footer.justyfy-content-spaceBtw.flex
