@@ -1,12 +1,15 @@
 import React from "react";
 
-function Nav(){
+
+
+function Nav({links, navClass}){
     return(
-        <nav className="header-nav">
-            <a href="#">shop</a>
-            <a href="#">style quiz</a>
-            <a href="#">about us</a>
-            <a href="#">stories</a>
+        <nav className={navClass}>
+            {
+                links.map((link) => {
+                    return <a href={link.href} key={link.name}>{link.name}</a>
+                })
+            }
         </nav>
     );
 }
