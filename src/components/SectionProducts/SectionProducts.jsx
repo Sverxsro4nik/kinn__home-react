@@ -1,15 +1,27 @@
 import React from "react";
-import firstProduct from '../../img/first-product.webp';
-import secondProduct from '../../img/second-product.webp';
-import thirdProduct from '../../img/third-product.webp';
 
 
-function SectionProducts(){
+
+function SectionProducts({products}){
     return(
         <section className="products section-backgroundYellow ">
             <h3>Maple Board Collection</h3>
             <ul className="products__list">
-                <li className="products__list-item">
+                {
+                    products.map((product) =>{
+                        return <li className="products__list-item" key={product.id}>
+                                    <figure>
+                                        <img src={product.src} alt={product.name}/>
+                                        <figcaption>
+                                            <h4>{product.name}</h4>
+                                            <p>{product.price}</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+
+                    })
+                }
+                {/* <li className="products__list-item">
                     <figure>
                         <img src={firstProduct} alt="Maple Board - Short"/>
                         <figcaption>
@@ -35,7 +47,7 @@ function SectionProducts(){
                             <p>$158.00</p>
                         </figcaption>
                     </figure>
-                </li>
+                </li> */}
             </ul>
         </section>
     );

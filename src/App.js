@@ -10,6 +10,11 @@ import SectionNewsLetter from './components/SectionNewsLetter/SectionNewsLetter'
 import SectionMoments from './components/SectionMoments/SectionMoments';
 import Footer from './components/Footer/Footer';
 
+import products from './data/product';
+import firstProduct from './img/first-product.webp';
+import secondProduct from './img/second-product.webp';
+import thirdProduct from './img/third-product.webp';
+
 function App() {
   return (
     <div className="App wrapper">
@@ -17,7 +22,7 @@ function App() {
             <main>
               <FirstScreen/>
               <SectionDescription/>
-              <SectionProducts/>
+              <SectionProducts products={products}/>
               <SectionEssentials/>
               <SectionAboutWork/>
               <SectionNewsLetter/>

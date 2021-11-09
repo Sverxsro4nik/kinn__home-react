@@ -15,14 +15,19 @@
     color: #56593D;
 }
 
+.NavHeader a:hover {
+    border-bottom: 2px solid #56593D;
+    margin-bottom: -2px;
+}
+
 .NavHeader a:first-of-type,
 .NavHeader a:last-of-type {
     width: 80px;
     background-image: url("data:image/svg+xml,%3Csvg width='10' height='8' viewBox='0 0 10 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.00059 0L4.99824 5.3336L1 0.00559998L0 1.3384L4.99882 8L10 1.3336L9.00059 0Z' fill='black'/%3E%3C/svg%3E%0A");
     background-repeat: no-repeat;
-    background-position: 100% 20%;
+    background-position: 100% 30%;
 }
 
 .NavHeader a:first-of-type {
-    background-position: 63% 20%;
+    background-position: 63% 30%;
 }
