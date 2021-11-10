@@ -11,9 +11,6 @@ import SectionMoments from './components/SectionMoments/SectionMoments';
 import Footer from './components/Footer/Footer';
 
 import products from './data/product';
-import firstProduct from './img/first-product.webp';
-import secondProduct from './img/second-product.webp';
-import thirdProduct from './img/third-product.webp';
 
 function App() {
   return (

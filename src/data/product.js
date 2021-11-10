@@ -7,19 +7,19 @@ const products = [
     {   
         id: 1,
         name: "Maple Board - Short",
-        src: './img/first-product.webp',
+        src: '/image/first-product.webp',
         price: "$98.00"
     },
     {
         id: 2,
         name: "Maple Board - Long",
-        src: './img/second-product.webp',
+        src: '/image/second-product.webp',
         price: "$125.00"
     },
     {
         id: 3,
         name: "Maple Board - Wide",
-        src: './img/third-product.webp',
+        src: '/image/third-product.webp',
         price: "$158.00"
     },
 ];
