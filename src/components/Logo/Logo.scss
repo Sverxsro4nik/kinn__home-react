@@ -9,6 +9,8 @@
 
     &__link {
         display: inline-block;
+        text-decoration: none;
+        color: $main-text-color;
 
         &::first-letter {
             text-decoration: overline;
