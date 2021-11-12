@@ -1,0 +1,17 @@
+.logo {
+    width: 90px;
+    font-weight: bold;
+    color: $main-text-color;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 32px;
+    margin-left: 115px;
+
+    &__link {
+        display: inline-block;
+
+        &::first-letter {
+            text-decoration: overline;
+        }
+    }
+}

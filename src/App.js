@@ -1,5 +1,7 @@
 
-import './style.css';
+// import './style.css';
+
+import './style.scss';
 import Header from './components/Header/Header';
 import FirstScreen from './components/FirstScreen/FirstScreen';
 import SectionDescription from './components/SectionDescription/SectionDescription';
