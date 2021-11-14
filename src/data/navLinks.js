@@ -1,4 +1,4 @@
-const headerNavLink = [
+const navLinks = [
     {
         name: "shop",
         href: '#'
@@ -18,4 +18,4 @@ const headerNavLink = [
 ];
 
 
-export default headerNavLink;
+export default navLinks;
