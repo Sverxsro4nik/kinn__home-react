@@ -1,0 +1,44 @@
+.about-work {
+    margin-top: 42px;
+
+    &__element {
+        display: flex;
+        padding: 65px 32px;
+        gap: 32px;
+
+        &:last-of-type {
+            margin-top: 24px;
+
+            img {
+                order: 2;
+            }
+
+            &__text {
+                order: 1;
+            }
+        }
+
+        &__text {
+            padding-left: 87px;
+            padding-right: 87px;
+            padding-top: 63px;
+            text-align: center;
+            color: $main-text-color;
+
+            h4 {
+                font-size: 29px;
+                font-weight: normal;
+            }
+
+
+            p {
+                font-size: 20px;
+                line-height: 32.4px;
+                font-family: 'Jost';
+                font-weight: normal;
+            }
+        }
+    }
+
+
+}
