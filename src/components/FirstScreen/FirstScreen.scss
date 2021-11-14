@@ -1,0 +1,36 @@
+.first__screen {
+    background: url("../../img/first__screen.webp") center center no-repeat;
+    background-size: cover;
+    color: $main-text-color;
+    height: 700px;
+    margin-top: 40px;
+    position: relative;
+
+    &__text {
+        position: absolute;
+        bottom: 76px;
+        right: 64px;
+        font-size: 18px;
+        text-align: right;
+
+        p {
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 45px;
+        }
+
+        &-link {
+            display: inline-block;
+            color: #fff;
+            background-color: $main-text-color;
+            padding: 16px 25px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-top: 25px;
+            font-size: 16px;
+        }
+    }
+}
