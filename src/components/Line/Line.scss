@@ -1,0 +1,18 @@
+.line {
+    width: 40px;
+    height: 1px;
+    background-color: #717353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 32px 0;
+    margin-left: 45%;
+
+}
+
+.footer__line {
+    @extend .line;
+    background-color: #fff;
+    margin: 15px 0;
+}

@@ -1,11 +1,12 @@
 import React from "react";
+import Line from "../Line/Line";
 
 
 const FooterCopyright = () => {
     return(
         <div className="footer-copyright">
             <p>&#169; 2021 Kinn Home</p>
-            <div className="line footer__line"></div>
+            <Line lineClass="footer__line"/>
             <p>Need to get in touch? Just email us at hello@kinnhome.com</p>
         </div>
     )

@@ -1,12 +1,12 @@
 import React from "react";
-
+import Line from "../Line/Line";
 
 
 const FooterExplore = () => {
     return(
         <div className="footer-explore">
             <p>Explore</p>
-            <div className="line footer__line"></div>
+            <Line lineClass="footer__line" />
             <nav className="footer-nav">
                 <a href="#" className="footer-nav__link">shop</a>
                 <a href="#" className="footer-nav__link">style quiz</a>

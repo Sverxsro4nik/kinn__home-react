@@ -1,6 +1,7 @@
 import React from "react";
 import design from "../../img/design.webp";
 import table from "../../img/table.webp";
+import Line from "../Line/Line";
 
 const SectionAboutWork = () => {
     return(
@@ -9,7 +10,7 @@ const SectionAboutWork = () => {
                 <img src={design} alt=""/>
                 <div className="about-work__element__text">
                     <h4>Our Design Story</h4>
-                    <div className="line"></div>
+                    <Line lineClass="line"/>
                     <p>
                         We believe in thoughtful, intentional living. So we promise not to clutter your cabinets
                         with one-off pieces you’ll rarely use.
@@ -22,7 +23,7 @@ const SectionAboutWork = () => {
                 <img src={table} alt=""/>
                 <div className="about-work__element__text">
                     <h4>Your Table Your Time</h4>
-                    <div className="line"></div>
+                    <Line lineClass="line"/>
                     <p>
                         Our modern lives keep us in constant motion.
                         But what keeps us moving isn’t always what moves us.
