@@ -1,4 +1,5 @@
 import React from "react";
+import MyLink from "../UI/MyLink/MyLink";
 
 const SectionDescription = () => {
     return(
@@ -8,8 +9,8 @@ const SectionDescription = () => {
                 That’s why we created products to help you find slow moments in a fast world. 
             </p>
             <div className="description-links">
-                <a href="#">Shop All</a>
-                <a href="#">Read Stories</a>
+                <MyLink linkClass linkHref="#" linkText="Shop All" className="true"/>
+                <MyLink linkClass linkHref="#" linkText="Read Stories" className="true"/>
             </div>
         </section>
     );
