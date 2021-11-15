@@ -1,0 +1,12 @@
+.moments__gallery {
+    display: flex;
+    margin-top: 39px;
+    gap: 8px;
+    justify-content: space-between;
+    padding: 0 32px;
+
+    img {
+        width: 310px;
+        height: auto;
+    }
+}
