@@ -1,3 +1,6 @@
+@import '../UI/MyButon/MyButton.scss';
+@import '../UI/MyInput/MyInput.scss';
+
 .newsletter {
     margin-top: 40px;
     display: flex;
@@ -17,24 +20,5 @@
     &__form {
         margin-top: 31px;
         max-width: 500px;
-
-        &-input {
-            display: inline-block;
-            width: 340px;
-            border: none;
-            background-color: inherit;
-            border-bottom: 1px solid $main-text-color;
-            margin-right: 16px;
-        }
-
-        &-button {
-            border: none;
-            outline: none;
-            color: #fff;
-            background-color: $main-text-color;
-            text-transform: uppercase;
-            padding: 2px 25px;
-            font-size: 15px;
-        }
     }
 }

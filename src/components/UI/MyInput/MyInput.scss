@@ -1,0 +1,12 @@
+.newsletter__form-input {
+    display: inline-block;
+    width: 340px;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid $main-text-color;
+    margin-right: 16px;
+
+    &:focus-visible {
+        outline: none;
+    }
+}

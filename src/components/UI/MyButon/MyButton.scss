@@ -1,0 +1,11 @@
+@import '../../../style/variable.scss';
+
+.newsletter__form-button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: $main-text-color;
+    text-transform: uppercase;
+    padding: 2px 25px;
+    font-size: 15px;
+}
