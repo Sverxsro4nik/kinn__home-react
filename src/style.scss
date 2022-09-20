@@ -1,52 +1,47 @@
 @import './style/variable.scss';
 
-
-
-@import './components/Header/Header.scss';
-@import './components/FirstScreen/FirstScreen.scss';
-@import './components/SectionDescription/SectionDescription.scss';
-@import './components/SectionProducts/SectionProducts.scss';
-@import './components/SectionEssentials/SectionEssentials.scss';
-@import './components/SectionAboutWork/SectionAboutWork.scss';
-@import './components/SectionNewsLetter/SectionNewsLetter.scss';
-@import './components/SectionMoments/SectionMoments.scss';
-@import './components/Footer/Footer.scss';
+@import './components/HeaderComponents/Header.scss';
+@import './components/LandingComponents/Landing.scss';
+@import './components/FooterComponents/Footer.scss';
+@import './components/UI/MyButon/MyButton.scss';
+@import './components/UI/MyInput/MyInput.scss';
+@import './components/UI/Line/Line.scss';
+@import './components/UI/MyGallery/MyGallery.scss';
 
 // сбрасывание стандартных отступов и размеров контейнера
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 // стили для главного контейнера
 .wrapper {
-    width: 90vw;
-    max-width: 1440px;
-    margin: 0 auto;
-    font-family: 'Roboro', sans-serif;
+  width: 90vw;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Roboro', sans-serif;
 }
 
 // общие стили для секций
 section {
-    margin-top: 89px;
+  margin-top: 89px;
 }
 
 // тень для секций
 .screen__boxShadow {
-    box-shadow: 0px 0px 2px 18px $main-boxShadow-color;
+  box-shadow: 0px 0px 2px 18px $main-boxShadow-color;
 }
 
 // заливка цвета для секций
 .section-backgroundYellow {
-    background-color: $main-boxShadow-color;
+  background-color: $main-boxShadow-color;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .justyfy-content-spaceBtw {
-    justify-content: space-between;
+  justify-content: space-between;
 }

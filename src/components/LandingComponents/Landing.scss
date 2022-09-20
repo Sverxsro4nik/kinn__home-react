@@ -1,0 +1,192 @@
+.first__screen {
+  background: url('../../img/first__screen.webp') center center no-repeat;
+  background-size: cover;
+  color: $main-text-color;
+  height: 700px;
+  margin-top: 40px;
+  position: relative;
+
+  &__text {
+    position: absolute;
+    bottom: 76px;
+    right: 64px;
+    font-size: 18px;
+    text-align: right;
+
+    p {
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 45px;
+    }
+
+    &-link {
+      display: inline-block;
+      color: #fff;
+      background-color: $main-text-color;
+      padding: 16px 25px;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-top: 25px;
+      font-size: 16px;
+    }
+  }
+}
+
+.description {
+  margin-top: 87.5px;
+  text-align: center;
+  font-size: 57px;
+  color: $main-text-color;
+  line-height: 81px;
+  font-weight: normal;
+
+  &-links {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    text-align: center;
+
+    a {
+      text-align: center;
+      align-self: center;
+      display: inline-block;
+      font-size: 16px;
+      color: $main-text-color;
+      background-image: url("data:image/svg+xml,%3Csvg width='14' height='11' viewBox='0 0 14 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 4.68518H12.2113V6.27764H0V4.68518Z' fill='black'/%3E%3Cpath d='M8.49573 9.87386L13.0475 4.40723L13.9851 5.5333L9.43334 10.9999L8.49573 9.87386Z' fill='black'/%3E%3Cpath d='M9.44829 0L14 5.46664L13.0624 6.59271L8.51068 1.12607L9.44829 0Z' fill='black'/%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      background-position: 90% center;
+      padding-right: 30px;
+      text-decoration: none;
+      border-bottom: 1px solid $main-text-color;
+      height: 22px;
+      line-height: 25px;
+    }
+  }
+}
+
+.products {
+  text-align: center;
+  color: $main-text-color;
+  padding: 80px 32px;
+
+  h3 {
+    margin-bottom: 80px;
+    font-size: 24px;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    justify-content: center;
+
+    &-item {
+      figcaption {
+        margin-top: 16px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+.essentials {
+  &__text {
+    background-image: url('../../img/essentialsBg.webp');
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    color: $main-text-color;
+    padding-top: 62px;
+
+    p {
+      font-size: 17px;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      font-size: 50px;
+      line-height: 60.5px;
+      padding: 0 118px;
+      padding-top: 11px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+    }
+  }
+}
+
+.about-work {
+  margin-top: 42px;
+
+  &__element {
+    display: flex;
+    padding: 65px 32px;
+    gap: 32px;
+
+    &:last-of-type {
+      margin-top: 24px;
+
+      img {
+        order: 2;
+      }
+
+      &__text {
+        order: 1;
+      }
+    }
+
+    &__text {
+      padding-left: 87px;
+      padding-right: 87px;
+      padding-top: 63px;
+      text-align: center;
+      color: $main-text-color;
+
+      h4 {
+        font-size: 29px;
+        font-weight: normal;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 32.4px;
+        font-family: 'Jost';
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.newsletter {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 63px 0;
+  font-family: 'Roboto', sans-serif;
+
+  h3 {
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  &__form {
+    margin-top: 31px;
+    max-width: 500px;
+  }
+}
+
+.moments {
+  text-align: center;
+  margin-bottom: 64px;
+  padding-bottom: 64px;
+
+  h3 {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+}
