@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ButtonLink from '../UI/ButtonLink/ButtonLink';
 import MyLink from '../UI/MyLink/MyLink';
 
@@ -7,13 +7,14 @@ import works from '../../data/works';
 import gallery from '../../data/gallery';
 
 import AboutWort from './AboutWork';
-import MyInput from '../UI/MyInput/MyInput';
-import MyButton from '../UI/MyButon/MyButton';
 import MyGallery from '../UI/MyGallery/MyGallery';
+import SubscribeForm from './SubscribeForm';
+import Modal from './Modal';
 
 const Landing = () => {
+  const [show, setShow] = useState(false);
   return (
-    <main>
+    <main className='landing'>
       <section className='first__screen screen__boxShadow'>
         <div className='first__screen__text'>
           <p>All collections</p>
@@ -63,15 +64,15 @@ const Landing = () => {
       <section className='newsletter section-backgroundYellow'>
         <h3>Sign up to our newsletter</h3>
         <p>Receive special offers and first look at new products</p>
-        <form className='newsletter__form'>
-          <MyInput />
-          <MyButton />
-        </form>
+        <SubscribeForm setShow={setShow} />
       </section>
       <section className='moments section-backgroundYellow'>
         <h3>#KinnMoments</h3>
         <MyGallery gallery={gallery} />
       </section>
+      {show ? (
+        <Modal show setShow={setShow} type='button' text='Close' onClick={() => setShow(false)} />
+      ) : null}
     </main>
   );
 };

@@ -1,3 +1,6 @@
+.landing {
+  position: relative;
+}
 .first__screen {
   background: url('../../img/first__screen.webp') center center no-repeat;
   background-size: cover;
@@ -165,6 +168,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-self: start;
   padding: 63px 0;
   font-family: 'Roboto', sans-serif;
 
@@ -177,6 +181,7 @@
   &__form {
     margin-top: 31px;
     max-width: 500px;
+    display: flex;
   }
 }
 
@@ -188,5 +193,37 @@
   h3 {
     font-size: 25px;
     padding-top: 20px;
+  }
+}
+
+.modal {
+  background-color: rgba(119, 113, 113, 0.2);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-body {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 20vh;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    button {
+      align-self: end;
+      margin-right: 20px;
+      margin-top: 40px;
+    }
   }
 }
